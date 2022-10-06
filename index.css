@@ -1,1 +1,150 @@
-asdasdas
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+tavi{
+height: 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: black;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+ui li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+ui{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-bottom: 250px;
+}
+
+main{
+    display: flex;
+    height:calc(100vh - 75px);
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+
+}
+
+main2{
+    display: flex;
+    height:calc(100vh - 75px);
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+
+}
+
+.otxi{
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+}
+
+
+main4{
+    display: flex;
+    height:calc(75px);
+    align-items:center;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+
+}
+
+xa{
+
+}
+
+.odin{
+    margin-left:px;
+    align-self: center;
+}
+
+.content-left-black{
+color: white;
+font-size: 45px;
+font-weight: 200;
+opacity: 50%;
+font-family: cursive;
+margin-left: 40px;
+}
+
+main3{
+    display: flex;
+
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+
+.content-bottom{
+    display: flex;
+}
+
+.content-right{
+
+}
+
+.img-marjvena{
+    max-width: 650px;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+main h1{
+    font-size: 54px;
+    color: black;
+    text-transform: uppercase;
+}
+
+main p{
+    font-size:14px;
+    font-weight: 400;
+    color: #3a3a3a;
+    line-height: 31.5px;
+    margin: 30px 0;
+}
+
+.signup-btn{
+    padding: 15px 30px;
+    background: #000000;
+    outline: none;
+    border: none;
+    font: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+}
