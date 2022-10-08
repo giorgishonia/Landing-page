@@ -6,166 +6,238 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
-tavi{
-height: 100px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: black;
+@font-face{
+    font-family: 'nino-mtavruli';
+    src: url(./font/bpg_nino_mtavruli_normal.ttf);
+}
+
+@font-face {
+    font-family: 'bgp-arial';
+    src: url(./font/bpg_arial_2009.ttf);
+}
+
+.nav-bar{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
 }
 
 ul{
     display: flex;
     list-style-type: none;
+    font-weight: 100;
+    margin-right: 35px;
 }
 
-ul li a{
-    padding: 0 20px;
-    text-decoration: none;
-    color: #ffffff;
-    margin-right: 10px;
+
+li{
+    margin-left: 30px;
+    color: #e5e7eb;
+    font-size: 14px;
+    transition: 0.3s;
 }
 
-ui li a{
-    padding: 0 20px;
-    text-decoration: none;
-    color: black;
-    margin-right: 10px;
+
+
+li:hover{
+    opacity: 50%;
+    cursor: pointer;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
 }
 
-ui{
+.home{
     display: flex;
-    list-style-type: none;
+    align-items: center;
     justify-content: space-around;
-    margin-bottom: 2px;
-    margin-top: 10px;
-    margin-left: 20px;
-}
-
-main{
-    display: flex;
-    height:calc(100vh - 75px);
-    align-items:center;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-
-}
-
-main2{
-    display: flex;
-    height:calc(100vh + 100 );
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-    background-color: rgb(255, 255, 255);
-    color: black;
-
-
-}
-
-
-.xa{
-    margin-top: -5px;
-    font-size: 25px;
-    margin-right: 180px;
-}
-
-.otxi{
-    margin: 10px;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-bottom: 0px;
-    border-radius: 10px;
-    margin-top: 40px;
-}
-
-main4{
-    display: flex;
-    height: 100hv;
-    align-items:center;
-    background-color: rgb(0, 0, 0);
-    justify-content: space-between;
-
-}
-
-.koleqcia{
-    margin-left: 550px;
-    font-size: 50px;
-    margin-top: 10px;
-}
-
-.odin{
-    margin-left:px;
-    align-self: center;
-}
-
-.content-left-black{
-color: white;
-font-size: 45px;
-font-weight: 200;
-opacity: 50%;
-font-family: cursive;
-margin-left: 40px;
-}
-
-main3{
-    display: flex;
-
-    background-color: rgb(0, 0, 0);
-    align-items: center;
-}
-
-
-.content-bottom{
-    display: flex;
-}
-
-
-.bolo{
-    margin-top: 50px;
-    margin-left: 70px;
-    border-radius: 10px;
-}
-
-.bolo2{
-    margin-top: 50px;
-    margin-right: 70px;
-    float: right;
-    border-radius: 10px;
-}
-
-.img-marjvena{
-    max-width: 650px;
+    background-color: #000000;
+    padding: 90px;
+    min-height: 75vh;
+    max-height: 85vh;
     height: auto;
-    border-radius: 20px;
-    margin-left: 50px;
+    width: 100%;
+    
 }
 
-main h1{
-    font-size: 54px;
+.home-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    padding: 90px;
+    min-height: 70vh;
+    max-height: 85vh;
+    height: auto;
+    width: 100%;
+}
+
+.audio{
+    display: flex;
+}
+
+btn1{
+    margin-top: 5px;
+    transition: 0.3s;
+    width: 65px;
+}
+
+btn2{
+    margin-top: 5px;
+    transition: 0.3s;
+    width: 65px;
+
+}
+
+
+btn1:hover{
+    opacity: 50%;
+    cursor: pointer;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+btn2:hover{
+    opacity: 50%;
+    cursor: pointer;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+
+
+.home-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #AAAAAA;
+    padding: 90px;
+    min-height: 60vh;
+    max-height: 85vh;
+    height: auto;
+    width: 100%;
+}
+
+.home-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    padding: 90px;
+    min-height: 45vh;
+    max-height: 60vh;
+    height: auto;
+    width: 100%;
+}
+
+
+.home-h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+}
+
+.home-h2{
     color: black;
     text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'nino-mtavruli';
+    margin-bottom: 5px;
 }
 
-main p{
-    font-size:14px;
-    font-weight: 400;
-    color: #3a3a3a;
-    line-height: 31.5px;
-    margin: 30px 0;
+.home-left{
+    flex-basis: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
 }
 
-.signup-btn{
-    padding: 15px 30px;
-    background: #000000;
-    outline: none;
-    border: none;
-    font: 700;
-    text-transform: uppercase;
-    border-radius: 50px;
+.btn{
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 7.5px;
+    border-style: groove;
+    border-color: white;
     color: white;
     cursor: pointer;
+    height: 35px;
+    width: 90px;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    transition: 0.3s;
+    font-family: 'nino-mtavruli';
+    text-align: center;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    opacity: 70%;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+.square{
+    max-width: 450xp;
+}
+
+.text1{
+
+    font-size: 15px;
+    margin-right: 25px;
+    color: #e5e7eb;
+    font-family: "bgp-arial";
+    line-height: 25px;
+}
+
+.text2{
+
+    font-size: 15px;
+    margin-right: 25px;
+    color: black;
+    font-family: "bgp-arial";
+    line-height: 25px;
+    margin-bottom: 185px;
+}
+
+.gallery{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 2px rgb(113 108 108 / 53%);
+    margin:50px;
+    width:500px;
+    clip-path:polygon(0 0,100% 0,200% 100%,200% 200%,100% 200%,0 100%);
+}
+
+.flex-2{
+    display: flex;
+    align-items: baseline;
+}
+
+.text3{
+
+    font-size: 15px;
+    margin-right: 25px;
+    margin-top: -5px;
+    color: black;
+    font-family: 'nino-mtavruli';
+    line-height: 25px;
+}
+.odin{
+    margin-left: 20px;
+    width: auto;
+    height: 35px;
+
 }
