@@ -261,6 +261,28 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0
 
 }
 
+.btn-bolo{
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 7.5px;
+    border-style: groove;
+    border-color: white;
+    color: black;
+    cursor: pointer;
+    height: 30px;
+    width: 40px;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    transition: 0.3s;
+    font-family: 'nino-mtavruli';
+    text-align: center;
+    font-size: 15px;
+    margin-top: 22px;
+    border: 1.5px solid black;
+    margin-left: 180px;
+
+}
+
+
 
 
 .btn4{
@@ -279,6 +301,20 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0
     text-align: center;
     font-size: 15px;
     margin-top: 10px;
+}
+
+.btn-bolo:hover{
+    opacity: 70%;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+.btn5:hover{
+    opacity: 70%;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
 }
 
 .btn5{
@@ -430,5 +466,15 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0
     margin-left: 20px;
     width: auto;
     height: 35px;
+    transition: 0.5s;
 
 }
+
+.odin:hover{
+    opacity: 70%;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+
