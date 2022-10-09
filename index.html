@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <link rel="shortcut icon" type="x-icon" href="./images/odin.ico">
+        <link rel="shortcut icon" type="x-icon" href="./images/S.png">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Landing Page</title>
@@ -16,7 +16,7 @@
     </head>
     <body>
         
-        <div class="nav-bar">
+        <div id="nav-bar">
             <img class="odin" src="./images/theOdinProject.png" width="300" >
             <nav>
                 <ul>
@@ -27,25 +27,28 @@
                 </ul>
             </nav>
         </div>
-        <div class="home">
+        <div id="home">
                 <div class="home-left">
                     <h1 class="home-h1">Guts (literally me)</h1>
                     <p class="text1">დღეს განახებთ 3 მიზეზს თუ რატომ ვარ Guts კენტარო მიურას შემოქმედება berserk-იდან. დიდება უფალს, შევუდგეთ!</p>
                     <div>
-                        <button class="btn">დაწყება</button>
+                        <a href="#home-2"><button class="btn">დაწყება</button></a>
                 </div>
             </div>
                 <div class="home-right">
                     <img src="./images/guts-sibnele.png" class="square">
                 </div>
         </div>
-        <div class="home-2">
+        <div id="home-2">
             <div class="home-left">
-                <h1 class="home-h2">პირველი მიზეზი</h1>
-                <p class="text2">Guts-ი ხშირად უსმენს ჯუზონებს, როგორც მე!</p>
+                <h1 class="home-h4">პირველი მიზეზი</h1>
+                <p class="text4">Guts-ი ხშირად უსმენს ჯუზონებს, როგორც მე!</p>
                 <div class="flex-2">
+                    <a href="#home-3"><button class="btn3">↓</button></a>
                     <p class="text3">მუსიკის დაკვრა:</p>
+                    
                     <audio id="player" src="./mp3/change - deftones (sped up).mp3"></audio>
+    
                     <div class="audio"> 
                         <btn1 onclick="document.getElementById('player').play()">Play</btn1> 
                         <btn2 onclick="document.getElementById('player').pause()">Pause</btn2>  
@@ -53,26 +56,54 @@
                 </div>
 
         </div>
-            <div class="home-right">
+            <div class="home-right-tetri">
                 <img src="./images/guts-headphones.png" class="gallery">
             </div>
     </div>
-    <div class="home-3">
-                <div class="home-left">
-                    <h1 class="home-h1"></h1>
-                    <p class="text1"></p>
+    <div id="home-3">
+        <div class="home-right">
+            <img src="./images/guts-shavi.png" class="gallery2">
+        </div>
+
+        <div class="home-left">
+            <h1 class="home-h3">მეორე მიზეზი</h1>
+            <p class="text2">Guts-ს თითქმის ყოველთვის აცვია შავი ტანსაცმელი, ასევე Guts-ი ჩუმი და სერიოზული პიროვნებაა.
+                ასევე gut-ს ყავს ბოზი მეგობარი რომელზეც გაცილებით ძლიერი ვარ. ასევე Guts-მა წერა არიცის. როგორც მე!
+            </p>
+            <a href="#home-4"><button class="btn5">↓</button></a>
             </div>
-                <div class="home-right">
-                    <img src="" class="gallery">
-                </div>
-        </div>
-        <div class="home-4">
-            <div class="home-left">
-                <h1 class="home-h1"></h1>
-                <p class="text1"></p>
-        </div>
+    </div>
+
+    <div id="home-4">
+        <div class="home-left3">
+            <h1 class="home-h2">მესამე მიზეზი</h1>
+            <p class="text-morcha">
+                როგორც უკვე შეამჩნიეთ ორივე კატასტროფულად მიმზიდველები ვართ და ორივეს სახელი ასო "გ"-თი გვეწყება. არამგონია ამდენი საერთო რამ შემთხვევით გვქონდეს!
+            </p>
+            </div>
             <div class="home-right">
-                <img src="" class="gallery">
+                <img src="./images/guts.png" class="gallery4">
+            </div>
+            
+    </div>
+
+    <div id="home-5">
+            <div class="home-left">
+                <h1 class="home-h3">დასკვნა</h1>
+                <p class="text1">jk არაფერში არ ვგავართ ერთმანეთს. გამოყლეებული ბავშვი ვარ რომელსაც goth mommy უნდა მაგრამ ვერ პოულობს, ერთადერთი იმაში ვგავართ რომ ორივე struggler-ები ვართ, მაგრამ ეგ დემონებთან იბრძვის და მე ჩემს shlong-თან ღამის 3 საათზე.</p>
+            <div>
+                <a href="#nav-bar"><button class="btn4" >დაბრუნება</button></a>
+            </div>
+        </div>
+        <div class="home-right">
+            <img src="./images/guts-sad.png" class="square-bolo">
+        </div>
+    </div>
+
+    </div>
+        <div class="home-6">
+                <p class="text-bolo">Copyright © The Odin Project 2021</p>
+        </div>
             </div>
     </body>
 </html> 
